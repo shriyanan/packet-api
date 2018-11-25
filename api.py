@@ -1,6 +1,6 @@
 import packet
 
-manager = packet.Manager(auth_token="NGd6A2VpnZqove8fpcfKcPo4wsUx1crL")
+manager = packet.Manager(auth_token="tokengoeshere")
 #create_op_sys = manager.operating_system
 
 device = manager.create_device(project_id='project-id',
